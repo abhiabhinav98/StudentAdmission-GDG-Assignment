@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">StudentAdmission</string>
+    <string-array name="branch">
+        <item>Select Branch</item>
+        <item>Computer Science</item>
+        <item>Mechanical</item>
+        <item>Civil</item>
+        <item>Information Technology</item>
+        <item>Electronics</item>
+        <item>Electrical</item>
+        <item>Chemical</item>
+    </string-array>
+</resources>

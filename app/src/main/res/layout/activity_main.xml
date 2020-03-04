@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:foregroundGravity="center">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:foregroundGravity="center"
+            android:background="@drawable/customborder">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@android:color/black"
+                android:textSize="40sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+
+            <Button
+
+                android:id="@+id/addStud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add new Student"
+                android:backgroundTint="@color/bgtint"
+                android:background="@drawable/effect3d"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+
+            <Button
+
+                android:id="@+id/viewStud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Students"
+                android:backgroundTint="@color/bgtint"
+                android:background="@drawable/customborder"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
